@@ -1,0 +1,8 @@
+BrickColor.new = BrickColor.New ("Really red")
+script.Parent.Transparency = 0
+script.Parent.anchored = false
+
+
+local function(onTouch)
+
+end

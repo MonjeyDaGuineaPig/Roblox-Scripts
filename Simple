@@ -1,2 +1,0 @@
-BrickColor.new = BrickColor.New ("Really red")
-script.Parent
