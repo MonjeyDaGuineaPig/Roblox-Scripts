@@ -1,9 +1,11 @@
 local brick = script.Parent
+local cd = script.Parent.ClickDetector
+
 brick.BrickColor.new = BrickColor.New ("Really red")
 brick.Parent.Transparency = 0
 brick.anchored = false
 
 
-local function(onTouch)
-
+local function(onClick)
+  print ("Hi")
 end
