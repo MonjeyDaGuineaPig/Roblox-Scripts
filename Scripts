@@ -1,6 +1,7 @@
-BrickColor.new = BrickColor.New ("Really red")
-script.Parent.Transparency = 0
-script.Parent.anchored = false
+local brick = script.Parent
+brick.BrickColor.new = BrickColor.New ("Really red")
+brick.Parent.Transparency = 0
+brick.anchored = false
 
 
 local function(onTouch)
