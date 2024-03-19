@@ -5,6 +5,10 @@ brick.BrickColor.new = BrickColor.New ("Really red")
 brick.Parent.Transparency = 0
 brick.anchored = false
 
+cd.MouseButton1Click:Connect.Function()
+  print ("clicked")
+end
+
 
 local function(onClick)
   print ("Hi")
